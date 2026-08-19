@@ -2,17 +2,17 @@ export const cycleStages = [
   {
     week: "Tydzień 1",
     title: "Diagnoza i rozgrzewka",
-    body: "Rozmowa prowadzona na żywo (a za wyraźną zgodą — częściowo nagrana wyłącznie do celów notatek) wyłapuje powtarzające się błędy i moment, w którym pojawia się blokada. Z tego powstają dwa, najwyżej trzy konkretne cele na resztę cyklu — nie dwadzieścia.",
+    body: "Rozmowa prowadzona na żywo, a za wyraźną zgodą częściowo nagrana wyłącznie do celów notatek, wyłapuje powtarzające się błędy i moment, w którym pojawia się blokada. Z tego powstają dwa, najwyżej trzy konkretne cele na resztę cyklu, nie dwadzieścia.",
   },
   {
     week: "Tydzień 2",
     title: "Trening celowany",
-    body: "Krótkie, powtarzalne scenki skierowane wyłącznie w te dwa lub trzy cele. Na tym etapie celowo nie ma nowego materiału z każdej lekcji — jest wracanie do tego samego, aż zacznie wychodzić bez namysłu.",
+    body: "Krótkie, powtarzalne scenki skierowane wyłącznie w te dwa lub trzy cele. Na tym etapie celowo nie ma nowego materiału z każdej lekcji, jest wracanie do tego samego, aż zacznie wychodzić bez namysłu.",
   },
   {
     week: "Tydzień 3",
     title: "Zastosowanie w dłuższej rozmowie",
-    body: "Te same cele, ale w mniej kontrolowanym kontekście — dłuższa rozmowa telefoniczna, spotkanie z niespodziewanym pytaniem, sytuacja bez przygotowanego scenariusza — żeby sprawdzić, czy to, co zadziałało w ćwiczeniu, przetrwa też pod presją.",
+    body: "Te same cele, ale w mniej kontrolowanym kontekście: dłuższa rozmowa telefoniczna, spotkanie z niespodziewanym pytaniem, sytuacja bez przygotowanego scenariusza. Chodzi o sprawdzenie, czy to, co zadziałało w ćwiczeniu, przetrwa też pod presją.",
   },
   {
     week: "Tydzień 4",

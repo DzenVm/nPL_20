@@ -12,37 +12,37 @@ export const blockerArchetypes: Record<
   "hamulec-gramatyczny": {
     name: "Gramatyczny hamulcowy",
     summary:
-      "Znasz reguły lepiej niż część rodzimych użytkowników języka — i właśnie dlatego zdanie w Twojej głowie czeka na wewnętrzną kontrolę poprawności, zanim wyjdzie na zewnątrz.",
+      "Znasz reguły lepiej niż część rodzimych użytkowników języka. Właśnie dlatego zdanie w Twojej głowie czeka na wewnętrzną kontrolę poprawności, zanim wyjdzie na zewnątrz.",
     focus:
-      "Pierwszy cykl skupia się na mówieniu pod narzuconym limitem czasu na start odpowiedzi — nie po to, by uczyć nowej gramatyki, tylko żeby przeprogramować odruch sprawdzania jej w locie.",
+      "Pierwszy cykl skupia się na mówieniu pod narzuconym limitem czasu na start odpowiedzi. Celem nie jest nowa gramatyka, tylko przeprogramowanie odruchu sprawdzania jej w locie.",
   },
   "cichy-slownik": {
     name: "Cichy słownik",
     summary:
       "Czytasz i rozumiesz bez trudu, ale w rozmowie słowo, które doskonale znasz, potrafi się schować na dobrych kilka sekund ciszy.",
     focus:
-      "Trening idzie w stronę szybkiego przywoływania słów pod presją — parafrazy, mówienia „dookoła” brakującego wyrazu, zamiast czekania, aż sam się przypomni.",
+      "Trening idzie w stronę szybkiego przywoływania słów pod presją: parafrazy, mówienia „dookoła” brakującego wyrazu, zamiast czekania, aż sam się przypomni.",
   },
   "mgla-sluchowa": {
     name: "Mgła słuchowa",
     summary:
-      "Tekst pisany nie stanowi problemu, ale żywa mowa — połączone wyrazy, różne akcenty, rozmowa bez obrazu — zamienia się w trudny do rozszyfrowania szum.",
+      "Tekst pisany nie stanowi problemu. Żywa mowa, połączone wyrazy, różne akcenty, rozmowa bez obrazu, zamienia się w trudny do rozszyfrowania szum.",
     focus:
       "Więcej materiału słuchowego w naturalnym tempie i różnych akcentach, nie tylko podręcznikowej wymowy spikera, plus ćwiczenie wyłapywania sensu bez rozumienia każdego pojedynczego słowa.",
   },
   "wieczny-poczatkujacy": {
     name: "Wieczny początkujący",
     summary:
-      "To już kolejne podejście z rzędu — kurs, aplikacja, znowu kurs — i za każdym razem start od nowa, zamiast od miejsca, w którym poprzednio się skończyło.",
+      "To już kolejne podejście z rzędu: kurs, aplikacja, znowu kurs. Za każdym razem start od nowa, zamiast od miejsca, w którym poprzednio się skończyło.",
     focus:
       "Pierwsza sesja to w połowie rozmowa o tym, co konkretnie przerwało poprzednie podejścia, żeby ten sam mechanizm nie zadziałał po raz kolejny, plus jasny czterotygodniowy horyzont zamiast bezterminowego zobowiązania.",
   },
   "trema-na-scenie": {
     name: "Tremowy performer",
     summary:
-      "Słownictwo i gramatyka są w porządku, ale realna rozmowa z obcokrajowcem — zwłaszcza przez telefon — uruchamia coś bliższego tremie niż brakom językowym.",
+      "Słownictwo i gramatyka są w porządku. Realna rozmowa z obcokrajowcem, zwłaszcza przez telefon, uruchamia coś bliższego tremie niż brakom językowym.",
     focus:
-      "Stopniowana ekspozycja: od rozmowy z prowadzącym, przez rozmowę w małej grupie, po sytuację zbliżoną do realnej — z dziennikiem poprawek skupionym bardziej na tym, co się udało, niż na tym, co nie.",
+      "Stopniowana ekspozycja: od rozmowy z prowadzącym, przez rozmowę w małej grupie, po sytuację zbliżoną do realnej. Dziennik poprawek skupia się bardziej na tym, co się udało, niż na tym, co nie.",
   },
 };
 

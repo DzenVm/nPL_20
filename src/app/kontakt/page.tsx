@@ -32,16 +32,16 @@ export default function KontaktPage() {
         <div className="prose mt-4">
           <h2>Chcesz umówić rozmowę wstępną</h2>
           <p>
-            Napisz w kilku zdaniach, czego dotyczy Twoja sytuacja — praca, wyjazd, odświeżenie języka po
-            dłuższej przerwie — i jakie pory dnia zwykle Ci pasują. Zaproponujemy dwa lub trzy konkretne
-            terminy zamiast odsyłać do formularza dostępności.
+            Napisz w kilku zdaniach, czego dotyczy Twoja sytuacja (praca, wyjazd, odświeżenie języka po
+            dłuższej przerwie) i jakie pory dnia zwykle Ci pasują. Zaproponujemy dwa lub trzy konkretne
+            terminy zamiast odsyłać Cię do formularza dostępności.
           </p>
 
-          <h2>Sprawy związane z fakturą dla firmy</h2>
+          <h2>Zgłoszenia w imieniu zespołu</h2>
           <p>
-            Podaj dane firmy od razu w pierwszej wiadomości — nazwę, adres i NIP. Oszczędza to wymiany kilku
-            dodatkowych e-maili, zanim wystawimy pierwszą fakturę. Więcej szczegółów na stronie{" "}
-            <a href="/dla-firm">dla firm i JDG</a>.
+            Jeśli piszesz w imieniu kilku osób z jednej firmy, wspomnij od razu, ile osób ma dołączyć i
+            czego dotyczy ich wspólna potrzeba językowa. Przyspiesza to dobór grupy o pełen tydzień. Więcej
+            w części <a href="/dla-firm">dla firm i zespołów</a>.
           </p>
 
           <h2>Sprawy dotyczące danych osobowych</h2>
@@ -54,9 +54,9 @@ export default function KontaktPage() {
           <h2>Kim jesteśmy</h2>
           <p>
             Zajęcia koordynuje jedna osoba, a prowadzi je niewielki, zmieniający się w czasie zespół
-            lektorów spełniających standard opisany na stronie głównej — to nie duża szkoła językowa z
-            siecią oddziałów, tylko usługa prowadzona na mniejszą skalę. Pełne dane rejestrowe przekazujemy
-            na etapie zapisu na cykl, nie publikujemy ich z góry na stronie.
+            lektorów spełniających standard opisany na stronie głównej. To usługa prowadzona na mniejszą
+            skalę, bez sieci oddziałów i bez korporacyjnego zaplecza. Pełne dane rejestrowe przekazujemy na
+            etapie zapisu na cykl zamiast publikować je z góry na stronie.
           </p>
         </div>
       </div>

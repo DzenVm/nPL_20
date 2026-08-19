@@ -7,11 +7,11 @@ export const threeQuestions = [
   {
     question: "Co się dzieje, jeśli po dwóch tygodniach uznam, że to nie dla mnie?",
     answer:
-      "Płacisz wyłącznie za cykl, w którym już jesteś — nie ma automatycznie odnawianej subskrypcji ani wieloletniej umowy. Przed kolejnym cyklem decyzja o kontynuacji zapada od nowa, bez konieczności podawania powodu, jeśli odpowiedź brzmi „nie”.",
+      "Jesteś związany wyłącznie z cyklem, w którym już jesteś. Nie ma automatycznie odnawianej subskrypcji ani wieloletniej umowy. Przed kolejnym cyklem decyzja o kontynuacji zapada od nowa, bez konieczności podawania powodu, jeśli odpowiedź brzmi „nie”.",
   },
   {
     question: "Skąd wiadomo, że to nie będzie to samo, co poprzednio?",
     answer:
-      "Nie wiadomo z góry — dlatego cały mechanizm zaczyna się od nazwania konkretnej bariery, a nie od kolejnego ogólnego programu. Diagnoza, punkty tarcia i dziennik poprawek to jest właśnie ta różnica, nie tylko slogan na stronie.",
+      "Z góry nie wiadomo. Dlatego cały mechanizm zaczyna się od nazwania konkretnej bariery, a nie od kolejnego ogólnego programu. Diagnoza, punkty tarcia i dziennik poprawek to jest właśnie ta różnica, nie tylko slogan na stronie.",
   },
 ] as const;

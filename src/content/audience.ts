@@ -2,7 +2,7 @@ export const audienceSegments = [
   {
     label: "Uczysz się już kolejny raz z rzędu",
     description:
-      "Za pierwszym razem szkoła, potem aplikacja, może jeszcze jeden kurs po drodze — i za każdym razem po kilku tygodniach coś to przerywało, a następne podejście znowu zaczynało się od zera, nie od miejsca, w którym się skończyło.",
+      "Najpierw szkoła, potem aplikacja, może jeszcze jeden kurs po drodze. Za każdym razem po kilku tygodniach coś to przerywało, a kolejne podejście zaczynało się od zera zamiast od miejsca, w którym poprzednie się urwało.",
   },
   {
     label: "Rozumiesz więcej, niż jesteś w stanie powiedzieć",
@@ -12,11 +12,11 @@ export const audienceSegments = [
   {
     label: "Masz za sobą lata angielskiego, które nie przełożyły się na rozmowę",
     description:
-      "Testy, matura, może nawet niezła ocena — a mimo to pierwsze zdanie do obcokrajowca wciąż wymaga wewnętrznego przygotowania, którego rodzimi użytkownicy języka po prostu nie potrzebują.",
+      "Testy, matura, może nawet niezła ocena. A mimo to pierwsze zdanie do obcokrajowca wciąż wymaga wewnętrznego przygotowania, którego rodzimi użytkownicy języka po prostu nie potrzebują.",
   },
   {
     label: "Masz konkretny termin, nie tylko ogólną chęć poprawy",
     description:
-      "Rozmowa kwalifikacyjna za sześć tygodni, przenosiny, nowy zespół, w którym nagle cała korespondencja jest po angielsku — cel z datą zmienia to, czego uczysz się najpierw, i to jest tu punktem wyjścia, nie dodatkiem.",
+      "Rozmowa kwalifikacyjna za sześć tygodni, przenosiny, nowy zespół, w którym nagle cała korespondencja jest po angielsku. Cel z konkretną datą zmienia to, czego uczysz się najpierw — to punkt wyjścia, nie dodatek do reszty programu.",
   },
 ] as const;

@@ -26,9 +26,9 @@ export default function PolitykaPrywatnosciPage() {
           <h2>Jakie dane przetwarzamy i po co</h2>
           <p>
             <strong>Korespondencja i zapis na rozmowę wstępną.</strong> Jeśli piszesz do nas e-mailem,
-            przetwarzamy dane, które sam podasz — zwykle imię, adres e-mail, czasem numer telefonu lub dane
-            firmy przy fakturowaniu. Podstawa: podjęcie działań przed zawarciem umowy oraz jej wykonanie
-            (art. 6 ust. 1 lit. b RODO).
+            przetwarzamy dane, które sam podasz. Zwykle jest to imię, adres e-mail, czasem numer telefonu
+            lub, przy zgłoszeniach zespołowych, nazwa firmy. Podstawa: podjęcie działań przed zawarciem
+            umowy oraz jej wykonanie (art. 6 ust. 1 lit. b RODO).
           </p>
           <p>
             <strong>Notatki z rozmowy diagnostycznej.</strong> Z pierwszej rozmowy powstają krótkie notatki
@@ -67,9 +67,9 @@ export default function PolitykaPrywatnosciPage() {
           <h2>Jak długo przechowujemy dane</h2>
           <p>
             Korespondencję i dane związane z udziałem w zajęciach przechowujemy przez czas trwania
-            współpracy oraz dodatkowo przez okres przedawnienia ewentualnych roszczeń. Dane firmowe potrzebne
-            do faktur przechowujemy przez okres wymagany przepisami podatkowymi. Wybór zgody na cookies
-            pozostaje w Twojej przeglądarce do czasu, aż go zmienisz lub wyczyścisz dane przeglądania.
+            współpracy oraz dodatkowo przez okres przedawnienia ewentualnych roszczeń. Wybór zgody na
+            cookies pozostaje w Twojej przeglądarce do czasu, aż go zmienisz lub wyczyścisz dane
+            przeglądania.
           </p>
 
           <h2>Komu przekazujemy dane</h2>

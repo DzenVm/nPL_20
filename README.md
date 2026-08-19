@@ -5,8 +5,8 @@ angielskiego online dla dorosłych w Polsce, z naciskiem na osoby, które już
 wcześniej próbowały się uczyć i utknęły. Strona główna jest maksymalnie
 nasycona własną treścią (diagnoza bariery mówienia, metoda, czterotygodniowy
 cykl nauki, punkty tarcia językowego PL→EN, organizacja zajęć, standard
-prowadzących, cennik orientacyjny, ścieżka dla firm, FAQ), a `/jak-uczymy`,
-`/dla-firm` i `/kontakt` rozwijają wybrane wątki na osobnych podstronach.
+prowadzących, ścieżka dla firm i zespołów, FAQ), a `/jak-uczymy`, `/dla-firm`
+i `/kontakt` rozwijają wybrane wątki na osobnych podstronach.
 
 ## Stos technologiczny i czym się wyróżnia
 
@@ -79,7 +79,7 @@ src/components/            nagłówek, stopka, baner cookies, znacznik Google,
                             widżet startu grupy, test diagnozy bariery,
                             akordeon punktów tarcia, przycisk kopiowania e-maila
 src/content/                 typizowana treść (segmenty odbiorców, metoda, cykl,
-                              punkty tarcia, cennik, FAQ, archetypy bariery…)
+                              punkty tarcia, FAQ, archetypy bariery…)
 src/lib/                       zgoda na cookies, obliczanie startu grupy, punktacja quizu
 public/images/, public/icons/    obrazy wygenerowane proceduralnie
 scripts/generate-images.mjs      generator obrazów (Playwright + SVG)
@@ -116,9 +116,9 @@ scripts/generate-images.mjs      generator obrazów (Playwright + SVG)
 - Brak fałszywych opinii, ocen czy liczników uczniów; brak fałszywego
   odliczania promocji — widżet startu grupy pokazuje realną, wyliczoną datę
   najbliższego cyklu, nie malejącą pulę „ostatnich miejsc”.
-- Cennik oznaczony jako orientacyjny, z jasnym zastrzeżeniem, że ostateczna
-  cena jest potwierdzana przed pierwszą płatnością — bez przekreślonych
-  „cen promocyjnych”.
+- Serwis celowo nie pokazuje żadnych kwot ani warunków płatności — te
+  ustala się indywidualnie w rozmowie wstępnej, więc na stronie nie ma czego
+  przedstawiać w mylący sposób.
 - Sekcja „Trzy pytania, które warto zadać na głos” oraz opis standardu
   prowadzących wprost adresują to, czego serwis nie obiecuje (np. płynności
   „w 30 dni”) i jak faktycznie weryfikowani są prowadzący.

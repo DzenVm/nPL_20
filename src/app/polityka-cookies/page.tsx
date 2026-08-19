@@ -29,25 +29,24 @@ export default function PolitykaCookiesPage() {
           </p>
           <p>
             <strong>Reklamowe / pomiarowe.</strong> Skrypt Google (gtag.js) ładuje się przy każdej wizycie w
-            trybie zgodnym z tzw. Consent Mode — domyślnie ze wszystkimi sygnałami zgody ustawionymi na
-            „odmówiono”, więc nie zapisuje plików cookie reklamowych ani nie przekazuje Google danych
-            pozwalających Cię zidentyfikować. Dopiero po kliknięciu „Akceptuj wszystkie” w banerze (albo w
-            ustawieniach opisanych niżej) te sygnały zmieniają się na „udzielono” i skrypt zaczyna działać w
-            pełnym zakresie — zapisuje pliki cookie i przekazuje Google dane potrzebne do pomiaru
-            skuteczności kampanii reklamowych.
+            trybie zgodnym z tzw. Consent Mode. Domyślnie wszystkie sygnały zgody są ustawione na
+            „odmówiono”, więc skrypt nie zapisuje plików cookie reklamowych ani nie przekazuje Google danych
+            pozwalających Cię zidentyfikować. Dopiero po kliknięciu „Akceptuj wszystkie” w banerze, albo w
+            ustawieniach opisanych niżej, te sygnały zmieniają się na „udzielono”, skrypt zapisuje pliki
+            cookie i przekazuje Google dane potrzebne do pomiaru skuteczności kampanii reklamowych.
           </p>
 
           <h2>Jak zmienić swój wybór</h2>
           <p>
             W dowolnym momencie możesz otworzyć ponownie panel wyboru przyciskiem „Zarządzaj zgodą na
-            cookies” w stopce każdej podstrony — poniżej ten sam przycisk dla wygody:
+            cookies” w stopce każdej podstrony. Poniżej ten sam przycisk dla wygody:
           </p>
           <p>
             <ManageCookiesButton />
           </p>
           <p>
-            Możesz też po prostu wyczyścić dane przeglądania dla tej strony w ustawieniach przeglądarki —
-            baner zgody pojawi się ponownie przy kolejnej wizycie.
+            Możesz też po prostu wyczyścić dane przeglądania dla tej strony w ustawieniach przeglądarki.
+            Baner zgody pojawi się ponownie przy kolejnej wizycie.
           </p>
 
           <h2>Więcej informacji</h2>

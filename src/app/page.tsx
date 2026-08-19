@@ -10,12 +10,6 @@ import { methodPrinciples } from "@/content/method";
 import { cycleStages } from "@/content/cycle";
 import { practicePoints } from "@/content/practice";
 import { teacherStandard } from "@/content/teachers";
-import {
-  pricingFactors,
-  pricingIncluded,
-  pricingIndicative,
-  pricingNote,
-} from "@/content/pricing";
 import { companyPaths } from "@/content/companies";
 import { threeQuestions } from "@/content/threeQuestions";
 import { faq } from "@/content/faq";
@@ -30,7 +24,7 @@ export default function HomePage() {
             <p className="kicker">Nauka angielskiego online · Polska</p>
             <h1 className="mt-2">Zanim zaczniemy uczyć, ustalamy, co dokładnie blokuje Twój angielski</h1>
             <p className="lede mt-3">
-              To kurs pomyślany dla osób, które już próbowały — czasem więcej niż raz. Małe grupy dobrane pod
+              To kurs pomyślany dla osób, które już próbowały, czasem więcej niż raz. Małe grupy dobrane pod
               barierę i cel, czterotygodniowe cykle z jasnym końcem i dziennik poprawek, który pokazuje, czy
               coś się naprawdę zmienia.
             </p>
@@ -45,8 +39,8 @@ export default function HomePage() {
             </div>
 
             <p className="muted max-42 text-sm mt-3">
-              Rozmowa wstępna nic nie kosztuje i niczego od razu nie podpisujesz — prowadzona przez
-              wideorozmowę w przeglądarce, z dowolnego miejsca w Polsce.
+              Rozmowa wstępna niczego nie przesądza. To zwykła wideorozmowa w przeglądarce, z dowolnego
+              miejsca w Polsce, bez instalowania dodatkowego oprogramowania.
             </p>
 
             <div className="mt-4">
@@ -95,8 +89,8 @@ export default function HomePage() {
             <p className="kicker kicker--plum">Zanim zaczniemy od nowa</p>
             <h2>Sześć powodów, przez które poprzednie podejście się nie przyjęło</h2>
             <p className="lede">
-              Nie po to, żeby oceniać wcześniejsze próby — po to, żeby nie powtórzyć dokładnie tego samego
-              mechanizmu jeszcze raz, tylko w innym opakowaniu.
+              Nie po to, żeby oceniać wcześniejsze próby. Po to, żeby nie powtórzyć tego samego mechanizmu
+              jeszcze raz, tylko w nieco innym opakowaniu.
             </p>
           </div>
           <div className="index-list index-list--2col">
@@ -119,7 +113,7 @@ export default function HomePage() {
               <p className="kicker">Metoda</p>
               <h2>Dlaczego zaczynamy od diagnozy, nie od podręcznika</h2>
               <p className="lede">
-                Sześć zasad, którymi faktycznie kierujemy się na zajęciach — nie tylko w opisie na tej
+                Sześć zasad, którymi faktycznie kierujemy się na zajęciach, nie tylko w opisie na tej
                 stronie.
               </p>
             </div>
@@ -152,7 +146,7 @@ export default function HomePage() {
             <p className="kicker kicker--plum">Diagnoza bariery</p>
             <h2>Dziesięć zdań, jeden wskazany kierunek na start</h2>
             <p className="lede">
-              To nie test wiedzy — zaznacz zdania, które faktycznie brzmią jak Ty, a zobaczysz, który
+              To nie test wiedzy. Zaznacz zdania, które faktycznie brzmią jak Ty, a zobaczysz, który
               mechanizm blokujący najpewniej odpowiada za milczenie w rozmowie. Wynik nie zastępuje rozmowy
               wstępnej, ale daje jej konkretny punkt startowy.
             </p>
@@ -179,7 +173,7 @@ export default function HomePage() {
               <p className="kicker kicker--mint">Rytm nauki</p>
               <h2>Cztery tygodnie, które się powtarzają, dopóki to ma sens</h2>
               <p className="lede">
-                Każdy cykl ma tę samą strukturę — dzięki temu widać, na jakim dokładnie etapie coś się urywa,
+                Każdy cykl ma tę samą strukturę. Dzięki temu widać, na jakim dokładnie etapie coś się urywa,
                 jeśli w ogóle się urywa.
               </p>
             </div>
@@ -205,8 +199,8 @@ export default function HomePage() {
               <p className="kicker kicker--plum">Punkty tarcia</p>
               <h2>Siedem miejsc, w których polska logika językowa ściera się z angielską</h2>
               <p className="lede">
-                Nie chodzi o pojedyncze błędy do wykucia na pamięć, tylko o mechanizmy, które wracają, dopóki
-                nie zostaną nazwane wprost. Kliknij punkt, żeby zobaczyć wyjaśnienie.
+                Błąd popełniony raz da się poprawić w minutę. Mechanizm, który go produkuje, wraca, dopóki
+                nie zostanie nazwany wprost. Kliknij punkt, żeby zobaczyć wyjaśnienie.
               </p>
             </div>
             <Image
@@ -266,74 +260,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* PRICING */}
-      <section className="section section--alt">
-        <div className="wrap">
-          <div className="section-head">
-            <p className="kicker kicker--mint">Cennik orientacyjny</p>
-            <h2>Co wpływa na cenę, zanim podamy jedną liczbę</h2>
-          </div>
-
-          <div className="split split--top mt-4">
-            <div>
-              <h3>Co obejmuje cena</h3>
-              <div className="prose mt-1">
-                <ul>
-                  {pricingIncluded.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-
-              <h3 className="mt-4">Co zmienia ostateczną kwotę</h3>
-              <div className="factor-list">
-                {pricingFactors.map((factor) => (
-                  <div key={factor.label}>
-                    <p className="factor__label">{factor.label}</p>
-                    <p className="factor__detail">{factor.detail}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="panel price-panel">
-              <div className="price-panel__row">
-                <p className="tag">Cykl czterotygodniowy</p>
-                <p className="price-panel__figure">{pricingIndicative.cycle}</p>
-                <p className="price-panel__sub">{pricingIndicative.cycleNote}</p>
-              </div>
-              <div className="price-panel__row">
-                <p className="tag tag--mint">Sesje indywidualne</p>
-                <p className="price-panel__figure price-panel__figure--sm">
-                  {pricingIndicative.individual}
-                </p>
-              </div>
-              <div className="price-panel__row">
-                <p className="price-panel__note">{pricingNote}</p>
-              </div>
-              <Link href="/kontakt" className="btn btn--primary btn--block">
-                Zapytaj o dokładną wycenę
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* COMPANIES TEASER */}
-      <section className="section">
+      <section className="section section--alt">
         <div className="wrap">
           <div className="split">
             <div className="section-head">
-              <p className="kicker">Kto płaci, kiedy to nie Ty</p>
-              <h2>Budżet szkoleniowy albo koszt działalności — obie ścieżki są częste</h2>
+              <p className="kicker">Nauka dla całego zespołu</p>
+              <h2>Czasem zgłasza się kilka osób z jednej firmy naraz</h2>
               <p className="lede">{companyPaths[0]?.body}</p>
               <Link href="/dla-firm" className="btn btn--ghost mt-3">
-                Zobacz szczegóły dla firm i JDG →
+                Zobacz szczegóły dla firm i zespołów →
               </Link>
             </div>
             <Image
               src="/images/firmy-warkocz.png"
-              alt="Abstrakcyjna ilustracja dwóch wiązek linii w osobnych kolorach, łączących się w jedną grubszą nić, symbolizująca połączenie ścieżki indywidualnej i firmowej"
+              alt="Abstrakcyjna ilustracja dwóch wiązek linii w osobnych kolorach, łączących się w jedną grubszą nić, symbolizująca połączenie ścieżki indywidualnej i zespołowej"
               width={1440}
               height={1080}
               sizes="(min-width: 960px) 40vw, 92vw"
@@ -344,7 +285,7 @@ export default function HomePage() {
       </section>
 
       {/* THREE QUESTIONS */}
-      <section className="section section--alt">
+      <section className="section">
         <div className="wrap wrap--mid">
           <div className="section-head">
             <p className="kicker kicker--plum">Zanim się zapiszesz</p>
@@ -363,7 +304,7 @@ export default function HomePage() {
       </section>
 
       {/* FAQ */}
-      <section className="section">
+      <section className="section section--alt">
         <div className="wrap wrap--mid">
           <div className="section-head">
             <p className="kicker">Pytania, które faktycznie padają</p>
@@ -390,9 +331,9 @@ export default function HomePage() {
       {/* FINAL CTA */}
       <section className="section section--deep center">
         <div className="wrap wrap--narrow">
-          <h2 className="text-on-deep">Rozmowa wstępna nic nie kosztuje, decyzja zostaje przy Tobie</h2>
+          <h2 className="text-on-deep">Rozmowa wstępna niczego nie przesądza, decyzja zostaje przy Tobie</h2>
           <p className="center-block max-50 text-on-deep-soft mt-2">
-            Bez presji sprzedażowej i bez podpisywania czegokolwiek na tym etapie — jeśli po rozmowie
+            Bez presji sprzedażowej i bez podpisywania czegokolwiek na tym etapie. Jeśli po rozmowie
             stwierdzisz, że to nie pasuje, po prostu na tym kończymy.
           </p>
           <Link href="/kontakt" className="btn btn--on-deep mt-4">

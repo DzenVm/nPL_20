@@ -3,9 +3,9 @@ import Link from "next/link";
 import { companyPaths, companySteps } from "@/content/companies";
 
 export const metadata: Metadata = {
-  title: "Dla firm i JDG",
+  title: "Dla firm i zespołów",
   description:
-    "Budżet szkoleniowy pracodawcy, koszt jednoosobowej działalności gospodarczej albo kilka osób z jednego zespołu naraz — jak rozliczamy naukę angielskiego, gdy płaci firma.",
+    "Jak wygląda cykl, gdy zgłasza się od razu kilka osób z jednej firmy albo freelancer pracujący z zagranicznymi klientami.",
 };
 
 export default function DlaFirmPage() {
@@ -13,11 +13,11 @@ export default function DlaFirmPage() {
     <>
       <section className="section">
         <div className="wrap wrap--mid section-head">
-          <p className="kicker">Dla firm i JDG</p>
-          <h1 className="mt-1">Kto płaci, kiedy to nie Ty</h1>
+          <p className="kicker">Dla firm i zespołów</p>
+          <h1 className="mt-1">Kiedy zgłasza się zespół, nie tylko jedna osoba</h1>
           <p className="lede">
-            Spora część zgłoszeń rozliczana jest inaczej niż zwykłą płatnością prywatną — przez budżet
-            szkoleniowy pracodawcy albo jako koszt własnej działalności. Poniżej konkrety, nie ogólniki.
+            Część zgłoszeń od razu obejmuje kilka osób z jednej firmy albo dotyczy pracy, w której angielski
+            jest jednym z narzędzi, a nie celem samym w sobie. Poniżej, jak to wtedy wygląda w praktyce.
           </p>
         </div>
       </section>
@@ -38,10 +38,27 @@ export default function DlaFirmPage() {
 
       <section className="section">
         <div className="wrap wrap--mid">
+          <h2>Zróżnicowany poziom w jednym zespole</h2>
+          <div className="prose mt-2">
+            <p>
+              W grupach firmowych poziom bywa bardziej rozstrzelony niż w grupach otwartych. Zgłasza się
+              osoba po filologii obok kogoś, kto ostatni raz uczył się angielskiego w liceum. Zamiast
+              ściągać wszystkich do wspólnego mianownika, dzielimy taki zespół na dwa mniejsze cykle
+              prowadzone równolegle, z podobnym zestawem scenariuszy zawodowych, ale innym tempem i punktem
+              startowym.
+            </p>
+            <p>
+              Jeśli to jedna, dwuosobowa różnica poziomu, zwykle wystarczy dobranie ćwiczeń w ramach jednej
+              grupy — dopiero przy wyraźnym rozstrzale sensowny jest osobny cykl.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="section section--alt">
+        <div className="wrap wrap--mid">
           <h2>Jak to ustalić przed startem</h2>
-          <p className="lede mt-2">
-            Trzy kroki, które oszczędzają wymiany kilkunastu e-maili po fakcie.
-          </p>
+          <p className="lede mt-2">Trzy rzeczy, które warto opisać już w pierwszej wiadomości.</p>
           <div className="index-list mt-4">
             {companySteps.map((step, index) => (
               <div key={step} className="index-item index-item--plum">
@@ -50,26 +67,8 @@ export default function DlaFirmPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="section section--alt">
-        <div className="wrap wrap--mid">
-          <h2>Rozliczenie i faktura</h2>
-          <div className="prose mt-2">
-            <p>
-              Fakturę wystawiamy na podstawie danych podanych przed pierwszą płatnością — nazwa, adres, NIP.
-              Jeśli w grę wchodzi kilka osób z jednego zespołu, jedna faktura zbiorcza jest możliwa, o ile
-              wszystkie dane są znane z góry.
-            </p>
-            <p>
-              Kwestie podatkowe — czy konkretny wydatek kwalifikuje się jako koszt uzyskania przychodu przy
-              danej formie opodatkowania — zostawiamy własnemu księgowemu; nie doradzamy w tym zakresie, bo
-              to zależy od szczegółów, których po prostu nie znamy.
-            </p>
-          </div>
-          <Link href="/kontakt" className="btn btn--primary mt-3">
-            Napisz w sprawie rozliczenia firmowego
+          <Link href="/kontakt" className="btn btn--primary mt-4">
+            Napisz o swoim zespole
           </Link>
         </div>
       </section>
