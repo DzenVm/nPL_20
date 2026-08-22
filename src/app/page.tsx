@@ -1,9 +1,8 @@
-import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BlockerQuiz } from "@/components/BlockerQuiz";
 import { FrictionAccordion } from "@/components/FrictionAccordion";
-import { CohortStartWidget, CohortStartWidgetFallback } from "@/components/CohortStartWidget";
+import { CohortStartWidget } from "@/components/CohortStartWidget";
 import { audienceSegments } from "@/content/audience";
 import { stuckReasons } from "@/content/stuckReasons";
 import { methodPrinciples } from "@/content/method";
@@ -44,9 +43,7 @@ export default function HomePage() {
             </p>
 
             <div className="mt-4">
-              <Suspense fallback={<CohortStartWidgetFallback />}>
-                <CohortStartWidget />
-              </Suspense>
+              <CohortStartWidget />
             </div>
           </div>
 

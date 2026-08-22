@@ -11,11 +11,15 @@ i `/kontakt` rozwijają wybrane wątki na osobnych podstronach.
 ## Stos technologiczny i czym się wyróżnia
 
 - **Next.js 16** (App Router) + React 19 + TypeScript, z włączonym
-  **Cache Components** (`cacheComponents: true`) — strona jest w większości
-  statycznym shellem HTML, a jedyną prawdziwą dziurą dynamiczną jest widżet
-  „najbliższy start grupy”, liczony z bieżącej daty serwera w strefie
-  `Europe/Warsaw` przez `connection()` + `<Suspense>` (cykle startują co
-  drugi poniedziałek, licząc od realnej daty odniesienia).
+  **Cache Components** (`cacheComponents: true`) — cała strona, łącznie z
+  widżetem „najbliższy start grupy” i rokiem w stopce, jest w pełni
+  wyrenderowana i cache’owana (`"use cache"`) zamiast dociągana strumieniowo
+  po pierwszym payloadzie. Każdy odbiorca, bot czy przeglądarka, dostaje
+  od razu ten sam, gotowy HTML — bez stanu pośredniego czy placeholdera,
+  który mógłby zostać przechwycony zamiast właściwej treści. Data startu
+  liczona jest od realnej daty serwera w strefie `Europe/Warsaw` (cykle
+  startują co drugi poniedziałek, licząc od stałego punktu odniesienia) i
+  odświeżana przy każdej rewalidacji cache’a.
 - **Czysty, nowoczesny CSS — bez Tailwinda i bez CSS Modules.** Jeden plik
   `globals.css` zorganizowany przez natywne warstwy `@layer`
   (`reset, tokens, base, layout, components, utilities`) i natywny CSS
