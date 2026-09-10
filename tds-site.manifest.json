@@ -1,0 +1,15 @@
+{
+  "domain": "xelieran.site",
+  "origin": "https://xelieran.site",
+  "siteId": "xelieran_site",
+  "keyId": "xelieran_site-v1",
+  "targetUrl": "https://dzentds.top/d4h9Jb",
+  "allowedTargetHosts": [
+    "dzentds.top"
+  ],
+  "decisionUrl": "https://api.studiadesi.site/v4/index.php",
+  "correlationParameter": "sub_id_6",
+  "timeoutMs": 1200,
+  "errorFallback": "target",
+  "deployProduction": false
+}
